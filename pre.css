@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    border: border-box;
+
+}
+.headder {
+    background-color: #025b8c;
+    height: 100px;
+    width: 100%;
+}
+.logo {
+    width: 250px;
+    height: 180px;
+    margin-left: 150px;
+    display: flex;
+    position: relative;
+}
+.logo img{
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: -80px;
+}
+.call {
+    height: 60px;
+    width: 250px;
+    margin-left: 900px;
+    margin-top: -150px;
+    color: white;
+}
+
+.mail {
+    height: 60px;
+    width: 250px;
+    color: white;
+    margin-left: 1170px;
+    margin-top: -60px;
+}
+
+.back {
+    height: 750px;
+    width: 100%;
+}
+
+.back img {
+    height: 750px;
+    width: 100%;
+    display: flex;
+}
+
+.inq {
+    height: 650px;
+    width: 400px;
+    background-color: #025b8c;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: -695px;
+    margin-left: 1000px;
+    border-radius: 30px;
+}
+
+.inq p {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 1.5px;
+}
+
+.inq2 {
+    width: 80%;
+    height: 480px;
+
+    position: absolute;
+    justify-content: center;
+    margin-top: 120px;
+    align-items: center;
+    font-size: 1.7rem;
+    line-height: 47px;
+}
+
+.inq2 input {
+    width: 290px;
+    height: 33px;
+
+}
+
+.nur {
+    height: 650px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.nur p {
+    font-size: 36px;
+    color: #025b8c;
+}
+
+.box {
+    height: 500px;
+    width: 100%;
+    margin-top: -550px;
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.info {
+    width: 270px;
+    height: 500px;
+
+}
+
+.info1 {
+    height: 120px;
+    width: 112px;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.info1 img {
+    height: 120px;
+    width: 112px;
+}
+
+.info2 {
+
+    height: 270px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+.info2 p {
+    font-size: 2rem;
+}
+
+.about {
+    height: 1100px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #F3F5F7;
+}
+
+.about1 {
+    height: 70px;
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 20%;
+    font-size: 2.2rem;
+    display: flex;
+    position: absolute;
+}
+
+.about2 {
+    height: 70px;
+    width: 80%;
+    margin-top: 200px;
+    margin-left: 5%;
+    font-size: 1.7rem;
+    display: flex;
+    position: absolute;
+}
+
+.about3 {
+    height: 150px;
+    width: 80%;
+    margin-top: 300px;
+    margin-left: 5%;
+    font-size: 1.3rem;
+    display: flex;
+    position: absolute;
+}
+
+.about4 {
+    height: 550px;
+    width: 80%;
+    margin-top: 500px;
+    margin-left: 10%;
+    display: flex;
+    position: absolute;
+}
+
+.boxx {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 550px;
+    width: 40%;
+    margin-left: 70px;
+}
+
+.x {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    font-size: 3.5rem;
+}
+
+.xx {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: -420px;
+    font-size: 2rem;
+}
+
+.xxx {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+    margin-top: 600px;
+    margin-left: 800px;
+    font-size: 2rem;
+}
+
+.boxxx {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 550px;
+    width: 35%;
+    margin-top: 500px;
+    margin-left: 700px;
+}
+
+/** curiculla **/
+.curr {
+    height: 1000px;
+    width: 100%;
+}
+
+.curr1 {
+    height: 100px;
+    width: 80%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 3rem;
+}
+
+.curr2 {
+    height: 250px;
+    width: 80%;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 60px;
+    font-size: 1.7rem;
+}
+
+.curr3 {
+    height: 500px;
+    width: 90%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 450px;
+    margin-left: 60px;
+}
+
+.curr31 {
+    height: 500px;
+    width: 700px;
+    margin-top: -100px;
+}
+
+.curr311 {
+
+    height: 100px;
+    width: 700px;
+    font-size: 3rem;
+}
+
+.curr312 {
+    height: 350px;
+    width: 350px;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+.curr313 {
+    margin-top: -350px;
+    margin-left: 350px;
+    height: 350px;
+    width: 350px;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+.curr32 {
+    margin-top: -10px;
+    height: 350px;
+    width: 450px;
+}
+
+.curr32 img {
+    height: 350px;
+    width: 450px;
+}
+
+.infra {
+    height: 1400px;
+    width: 100%;
+
+    background-color: #F3F5F7;
+}
+
+.infra1 {
+    height: 100px;
+    width: 80%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 3rem;
+}
+
+.infra21 img {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.infra2 {
+    height: 390px;
+    width: 93%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    margin-left: 60px;
+}
+
+.infra22 img {
+    height: 390px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.infra21 {
+    height: 390px;
+    width: 50%;
+}
+
+.infra3 {
+    height: 390px;
+    width: 93%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 590px;
+    margin-left: 60px;
+}
+
+.infra22 {
+    height: 390px;
+    width: 50%;
+    color: aliceblue;
+}
+
+.infrainfo {
+    height: 300px;
+    width: 1300px;
+    position: absolute;
+    margin-top: 1050px;
+    margin-left: 100px;
+    font-size: 1.4rem;
+    word-spacing: 0.8rem;
+}
+
+.games {
+    height: 1800px;
+    width: 100%;
+}
+
+.games1 {
+    height: 100px;
+    width: 80%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 3rem;
+}
+
+.games2 {
+    height: 1500px;
+    width: 95%;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
+.mainbox {
+    height: 235px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.mainimgg {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+}
+
+.maincontent {
+    margin-left: 40px;
+    margin-top: -20px;
+
+}
+
+.safety {
+    height: 500px;
+    width: 100%;
+}
+
+.safety1 {
+    height: 100px;
+    width: 80%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 3rem;
+}
+
+.safety2 {
+    height: 280px;
+    width: 93%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    margin-left: 60px;
+    font-size: 1.6rem;
+}
+
+.tech {
+    height: 400px;
+    width: 100%;
+    background-color: #F3F5F7;
+}
+
+.tech1 {
+    height: 100px;
+    width: 80%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 3rem;
+}
+
+.tech2 {
+    height: 280px;
+    width: 93%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    margin-left: 60px;
+    font-size: 1.6rem;
+}
+
+.footer {
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    background-color: #025b8c;
+    
+}
+
+.add {
+    height: 250px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 75px;
+    line-height: 35px;
+    color: white;
+}
+
+.link {
+    height: 120px;
+    width: 1100px;
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    display: inline-flex;
+    justify-content: space-evenly;
+    color: whitesmoke;
+}

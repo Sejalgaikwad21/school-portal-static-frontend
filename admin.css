@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    border: border-box;
+
+}
+.sidebar
+{
+    width:20% ;
+    height:750px;
+    background-color:#025b8c ;
+    color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+    display: list-item;
+    justify-content: center;
+}
+.logo
+{
+  height: 200px;
+  width: 200px;
+  background-color: purple;
+  margin-left: 50px;
+  margin-top: 45px;
+position:absolute;
+border-radius: 100px;
+}
+.logo img
+{
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 200px;
+width: 200px;
+border-radius: 100px;
+}
+.sideinfo
+{
+    
+    height: 350px;
+    width: 100%;
+   position:absolute;
+   margin-top: 260px;
+ text-align: center;
+ line-height: 50px;
+    
+}
+.sideinfo a{
+    color: black;
+    font-size:larger;
+    text-decoration:none;
+}
+
+/**box up que**/
+.box1 {
+    height: 150px;
+    width: 250px;
+    background-color: white;
+    display: inline-block;
+    font-size: x-large;
+    line-height: 40px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.box2 {
+    height: 150px;
+    width: 250px;
+    background-color: white;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: x-large;
+    line-height: 40px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.box
+{ display: flex;
+    align-items: center;
+    height:800px;
+    width: 80%;
+    background-color: white;
+   margin-left: 294px;
+   margin-top: -800px;
+   
+}
+.up
+{
+    height: 100px;
+    width: 700px;
+    margin-top: -400px;
+    margin-left: 100px;
+    color:#025b8c ;
+    font-size: 60px;
+}
+.ques
+{
+    width: 800px;
+    height: 500px;
+  margin-left: -700px;
+    margin-top: 180px;
+    font-size: x-large;
+    line-height:40px ;
+}
+
+
+.boxa
+{
+    height: 708px;
+    width: 100%;
+    position: fixed;
+  
+}
+.lob
+{
+    width: 400px;
+    height: 500px;
+   margin-left: 600px;
+   margin-top: 70px;
+    font-size: x-large;
+    position: fixed;
+}
+.lon
+{
+    height: 200px;
+    width: 900px;
+    margin-top: 250px;
+}
+.bbb
+{
+    width: 300px;
+    height: 30px;
+    border-color: #025b8c;
+    border-radius: 50px;
+}

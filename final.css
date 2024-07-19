@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  border: border-box;
+
+}
+
+#nava {
+  height: 300px;
+  width: 500px;
+  background-color: black;
+}
+
+.hii {
+
+  height: 300px;
+  width: 500px;
+  background-color: black;
+}
